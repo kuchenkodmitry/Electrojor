@@ -6,7 +6,13 @@ import AdminPanel from './pages/admin/admin';
 
 
 function App() {
-  
+  const loh = true
+  if(loh){
+    console.log('HUI');
+    React.useEffect(() => {
+      console.log('HUI');
+    }, [])
+  }
   return (
     <>
       <Routes>
